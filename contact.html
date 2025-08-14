@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container-navbar">
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <img
+            src="logosumer.jpeg"
+            alt="Logo Summer Camp"
+            class="navbar-logo"
+          />
+          <h1 class="navbar-title">Summer Camp</h1>
+        </div>
+
+        <ul class="navbar-links" id="main-nav">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="navbar-cta">
+          <a href="#contact" class="cta-button">Nous Joindre</a>
+        </div>
+      </nav>
+    </div>
+    <header id="contact-header" class="header">
+      <div>
+        <h1 class="header-title">Contactez <span>Summer Camp</span></h1>
+        <p class="header-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+          voluptatum in dolorum beatae odit corrupti ea pariatur ipsum minima
+          quasi maxime facilis dolores blanditiis repellat temporibus tempore,
+          atque sed veniam.
+        </p>
+      </div>
+    </header>
+
+    <main id="contact-main" class="main">
+      <div class="contact-main-div">
+        <div id="contact-info" class="contact-info">
+          <h1 class="info-title">Nos informations</h1>
+          <p class="info-description">
+            Nos coordonnées vont vous permettre de nous joindre.
+          </p>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="info-text">
+              <h1 class="info-label">Email</h1>
+              <p class="info-value">contactsummer.camp.org</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fab fa-facebook"></i>
+            </div>
+            <div class="info-text">
+              <h1 class="info-label">Page Facebook</h1>
+              <p class="info-value">Summer Camp officiel</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info-text">
+              <h1 class="info-label">Téléphone</h1>
+              <p class="info-value">243 824218849</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-text">
+              <h1 class="info-label">Adresse</h1>
+              <p class="info-value">24 novembre c. lingwala UPC</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact-form-container" class="form-container">
+          <form id="contact-form" class="form" action="">
+            <h1 class="form-title">Envoyez vos messages</h1>
+            <p class="form-description">
+              Remplissez le formulaire ci-dessous et nous vous recontacterons
+              rapidement.
+            </p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nom">Nom complet</label><br />
+                <input
+                  type="text"
+                  id="nom"
+                  class="input-text"
+                  required
+                  placeholder="Votre nom complet"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  class="input-text"
+                  required
+                  placeholder="votre@email"
+                />
+              </div>
+            </div>
+            <br /><br />
+
+            <div class="container-sujet">
+              <label for="sujet">Sujet</label><br />
+              <input
+                type="text"
+                id="sujet"
+                class="input-text"
+                required
+                placeholder="Sujet de votre message"
+              />
+            </div>
+            <br /><br />
+
+            <div class="form-group">
+              <label for="message">Message</label><br />
+              <textarea
+                id="message"
+                class="textarea"
+                placeholder="Entrez votre demande en détail"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" id="btn-submit" class="btn-submit">
+                Envoyer le message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="div">
+        <div class="footer-container">
+          <div class="footer-section" id="about">
+            <div class="logo-container">
+              <img
+                src="logosumer.jpeg"
+                alt="Logo Summer Camp"
+                class="footer-logo"
+              />
+              <h1 class="footer-title">
+                Summer <span class="highlight">Camp</span>
+              </h1>
+            </div>
+            <p class="footer-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, quia! Animi labore eos sint quisquam sed fugiat
+              blanditiis, reiciendis molestiae vel obcaecati impedit deleniti
+              molestias illum ipsam illo earum fuga!
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" target="_blank" class="social-icon"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="tel:+123456789" class="social-icon"
+                ><i class="fas fa-phone"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-section2" id="quick-links">
+            <h1 class="section-title">Liens rapides</h1>
+            <hr class="divider" />
+            <ul class="links-list">
+              <li><a href="#" class="footer-link">Accueil</a></li>
+              <li><a href="#" class="footer-link">À propos</a></li>
+              <li><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section3" id="contact-info">
+            <h1 class="section-title">Contact</h1>
+            <hr class="divider" />
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt contact-icon"></i>
+              <p>123 Rue kima, 22882 Kinshasa</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone contact-icon"></i>
+              <p>+243 123 456 789</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope contact-icon"></i>
+              <p>contact@summercamp.cd</p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2024 Summer Camp. Tous droits réservés.
+          </p>
+          <div class="legal-links">
+            <a href="#" class="legal-link">Politique de confidentialité</a>
+            <a href="#" class="legal-link">Conditions d'utilisation</a>
+            <a href="#" class="legal-link">Mentions légales</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
