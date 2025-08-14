@@ -1,0 +1,97 @@
+.about-section {
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    padding: 60px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #0c0c0c;
+    width: 90%;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+    position: relative;
+}
+.title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #ff6f61;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.about-intro {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    color: #555;
+}
+
+.section-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0 30px;
+    color: #444;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 0 10px;
+}
+
+.team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff6f61;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.3rem;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-weight: bold;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+    .about-intro {
+        font-size: 1rem;
+    }
+}
